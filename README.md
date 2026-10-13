@@ -62,9 +62,13 @@ Pengembangan Mini Project 4 dilakukan untuk:
 
 # 🧩 Struktur Project
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20165853.png" width="70%" alt="Struktur Package">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20165853.png" width="75%" alt="Struktur Package">
+    </td>
+  </tr>
+</table>
 
 Struktur package dipisahkan berdasarkan tanggung jawab masing-masing bagian agar kode lebih terorganisir, mudah dipahami, dan lebih mudah dikembangkan.
 
@@ -160,9 +164,13 @@ private String namaPelanggan;
 private String nomorTelepon;
 ```
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170144.png" width="70%" alt="Encapsulation">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170144.png" width="75%" alt="Encapsulation">
+    </td>
+  </tr>
+</table>
 
 Atribut tersebut tidak diakses secara langsung dari luar class. Pengaksesan data dilakukan melalui getter dan setter.
 
@@ -178,9 +186,13 @@ public void setNamaPelanggan(String namaPelanggan) {
 }
 ```
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170200.png" width="70%" alt="Getter Setter">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170200.png" width="75%" alt="Getter Setter">
+    </td>
+  </tr>
+</table>
 
 Encapsulation digunakan agar data object lebih terkontrol. Sebagai contoh, perubahan nama pelanggan dilakukan melalui method `setNamaPelanggan()`, bukan dengan mengubah atribut secara langsung dari class lain.
 
@@ -200,9 +212,13 @@ public abstract class PesananJastip {
 }
 ```
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170326.png" width="70%" alt="Inheritance">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170326.png" width="75%" alt="Inheritance">
+    </td>
+  </tr>
+</table>
 
 Class tersebut memiliki beberapa class turunan:
 
@@ -240,9 +256,13 @@ public String getJenisPesanan() {
 }
 ```
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170412.png" width="70%" alt="Polymorphism">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170412.png" width="75%" alt="Polymorphism">
+    </td>
+  </tr>
+</table>
 
 Class turunan lainnya memberikan implementasi `getJenisPesanan()` sesuai dengan jenis pesanan masing-masing.
 
@@ -284,9 +304,13 @@ public interface BisaDivalidasi {
 }
 ```
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170512.png" width="70%" alt="Interface">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170512.png" width="75%" alt="Interface">
+    </td>
+  </tr>
+</table>
 
 Interface tersebut memberikan kemampuan validasi kepada jenis pesanan.
 
@@ -375,9 +399,13 @@ private static final String USER = "root";
 private static final String PASSWORD = "";
 ```
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170648.png" width="70%" alt="Konfigurasi JDBC">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170648.png" width="75%" alt="Konfigurasi JDBC">
+    </td>
+  </tr>
+</table>
 
 Koneksi dibuat menggunakan:
 
@@ -385,9 +413,13 @@ Koneksi dibuat menggunakan:
 DriverManager.getConnection(URL, USER, PASSWORD);
 ```
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170735.png" width="70%" alt="DriverManager JDBC">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170735.png" width="75%" alt="DriverManager JDBC">
+    </td>
+  </tr>
+</table>
 
 JDBC digunakan sebagai mekanisme utama karena merupakan bagian wajib dari Mini Project 4 dan memberikan kontrol langsung terhadap proses query database.
 
@@ -428,9 +460,13 @@ try (
 }
 ```
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171314.png" width="70%" alt="PreparedStatement">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171314.png" width="75%" alt="PreparedStatement">
+    </td>
+  </tr>
+</table>
 
 Penggunaan `?` membuat nilai parameter diberikan secara terpisah dari perintah SQL.
 
@@ -479,9 +515,13 @@ boolean ubahStatusPesanan(
 );
 ```
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171411.png" width="70%" alt="DAO Interface">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171411.png" width="75%" alt="DAO Interface">
+    </td>
+  </tr>
+</table>
 
 Implementasinya terdapat pada:
 
@@ -565,9 +605,13 @@ Bagian ini berisi screenshot hasil program setelah fitur-fitur utama dijalankan.
 
 Menampilkan menu utama sistem setelah program berhasil dijalankan. Menu ini menjadi halaman awal yang digunakan pengguna untuk memilih fitur yang tersedia di dalam sistem.
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/Screenshot%202026-09-19%20211755.png" width="70%" alt="Menu Utama">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/Screenshot%202026-09-19%20211755.png" width="75%" alt="Menu Utama">
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -575,13 +619,21 @@ Menampilkan menu utama sistem setelah program berhasil dijalankan. Menu ini menj
 
 Menampilkan data pesanan yang berasal dari database. Data dapat langsung ditampilkan karena sebelumnya telah tersedia dummy data pada file `sistem_jastip.sql`.
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-12%20235100.png" width="70%" alt="Data Pesanan">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-12%20235100.png" width="75%" alt="Data Pesanan">
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20004622.png" width="70%" alt="Detail Data Pesanan">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20004622.png" width="75%" alt="Detail Data Pesanan">
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -589,28 +641,45 @@ Menampilkan data pesanan yang berasal dari database. Data dapat langsung ditampi
 
 Menampilkan proses ketika pengguna menambahkan data pesanan baru melalui program.
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20000605.png" width="70%" alt="Proses Tambah Pesanan">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20000605.png" width="75%" alt="Proses Tambah Pesanan">
+    </td>
+  </tr>
+</table>
 
 Setelah proses penambahan berhasil, data pesanan baru juga tersimpan di dalam database. Hal ini menunjukkan bahwa data yang dimasukkan melalui program berhasil diteruskan dan disimpan ke database.
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20000628.png" width="50%" alt="Hasil Tambah Pesanan">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20000628.png" width="75%" alt="Hasil Tambah Pesanan">
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## 04 Mengubah Data Pesanan
 
 Menampilkan proses dan hasil perubahan data pesanan yang sebelumnya telah tersimpan di dalam sistem.
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001127.png" width="70%" alt="Proses Ubah Pesanan">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001127.png" width="75%" alt="Proses Ubah Pesanan">
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001158.png" width="70%" alt="Hasil Ubah Pesanan">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001158.png" width="75%" alt="Hasil Ubah Pesanan">
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -618,19 +687,31 @@ Menampilkan proses dan hasil perubahan data pesanan yang sebelumnya telah tersim
 
 Menampilkan proses dan hasil penghapusan data pesanan berdasarkan ID pesanan.
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002128.png" width="70%" alt="Proses Hapus Pesanan">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002128.png" width="75%" alt="Proses Hapus Pesanan">
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002137.png" width="70%" alt="Konfirmasi Hapus Pesanan">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002137.png" width="75%" alt="Konfirmasi Hapus Pesanan">
+    </td>
+  </tr>
+</table>
 
 Setelah proses penghapusan berhasil, data pesanan yang dipilih juga terhapus dari database. Dengan demikian, perubahan yang dilakukan melalui program berhasil diterapkan pada data yang tersimpan di database.
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002152.png" width="70%" alt="Hasil Hapus Pesanan">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002152.png" width="75%" alt="Hasil Hapus Pesanan">
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -638,15 +719,23 @@ Setelah proses penghapusan berhasil, data pesanan yang dipilih juga terhapus dar
 
 Menampilkan proses dan hasil perubahan status pesanan melalui sistem.
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001513.png" width="70%" alt="Proses Ubah Status">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001513.png" width="75%" alt="Proses Ubah Status">
+    </td>
+  </tr>
+</table>
 
 Setelah status pesanan berhasil diubah melalui program, status yang tersimpan di dalam database juga diperbarui sesuai dengan perubahan tersebut. Hal ini menunjukkan bahwa perubahan status tidak hanya ditampilkan pada program, tetapi juga tersimpan pada database.
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001530.png" width="70%" alt="Hasil Ubah Status">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001530.png" width="75%" alt="Hasil Ubah Status">
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -654,9 +743,13 @@ Setelah status pesanan berhasil diubah melalui program, status yang tersimpan di
 
 Menampilkan hasil penerapan Hibernate ORM melalui `PelangganHibernateDAO`. Data pelanggan diambil menggunakan mekanisme ORM sehingga proses interaksi dengan database dapat dilakukan melalui objek entity dan Hibernate.
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001753.png" width="70%" alt="Hibernate ORM">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001753.png" width="75%" alt="Hibernate ORM">
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -664,9 +757,13 @@ Menampilkan hasil penerapan Hibernate ORM melalui `PelangganHibernateDAO`. Data 
 
 Menampilkan proses ketika pengguna memilih menu `9` untuk keluar dari sistem. Setelah memilih menu tersebut, program menghentikan proses dan menampilkan pesan bahwa aplikasi telah selesai digunakan.
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20005130.png" width="70%" alt="Keluar Program">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20005130.png" width="75%" alt="Keluar Program">
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -803,9 +900,13 @@ public class Pelanggan {
 }
 ```
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171729.png" width="70%" alt="Entity Mapping">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171729.png" width="75%" alt="Entity Mapping">
+    </td>
+  </tr>
+</table>
 
 Mapping tersebut digunakan agar Hibernate mengetahui bahwa object `Pelanggan` berhubungan dengan tabel `pelanggan`, termasuk hubungan antara atribut Java dan kolom database.
 
@@ -834,9 +935,13 @@ try (Session session =
 }
 ```
 
-<p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171820.png" width="70%" alt="Hibernate DAO">
-</p>
+<table border="1" bordercolor="black">
+  <tr>
+    <td>
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171820.png" width="75%" alt="Hibernate DAO">
+    </td>
+  </tr>
+</table>
 
 Pada bagian ini, Hibernate digunakan untuk mengambil data berdasarkan entity `Pelanggan`.
 
