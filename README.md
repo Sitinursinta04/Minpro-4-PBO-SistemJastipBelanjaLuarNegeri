@@ -596,7 +596,7 @@ Menampilkan proses ketika pengguna menambahkan data pesanan baru melalui program
 Setelah proses penambahan berhasil, data pesanan baru juga tersimpan di dalam database. Hal ini menunjukkan bahwa data yang dimasukkan melalui program berhasil diteruskan dan disimpan ke database.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sitinursinta04/PRAKTIKUM_PBO/main/Dokumentasi/kedua/Screenshot%202026-10-13%20000628.png" width="65%" alt="Hasil Tambah Pesanan">
+  <img src="https://raw.githubusercontent.com/Sitinursinta04/PRAKTIKUM_PBO/main/Dokumentasi/kedua/Screenshot%202026-10-13%20000628.png" width="500" alt="Hasil Tambah Pesanan">
 </p>
 ---
 
