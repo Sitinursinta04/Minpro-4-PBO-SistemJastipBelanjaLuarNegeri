@@ -1,4 +1,5 @@
-# 📦🛍️ Sistem Jasa Titip Belanja Luar Negeri - Mini Project 4
+# 📦🛍️ Sistem Jasa Titip Belanja Luar Negeri
+### Mini Project 4 — Java • JDBC • DAO • MySQL • Hibernate ORM
 
 <p align="center">
   <b>Pengembangan Sistem Jasa Titip Berbasis Java, JDBC, DAO, dan Hibernate ORM</b>
@@ -8,13 +9,30 @@
   <img src="https://img.shields.io/badge/Java-26-orange?style=for-the-badge&logo=openjdk" alt="Java">
   <img src="https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql" alt="MySQL">
   <img src="https://img.shields.io/badge/JDBC-PreparedStatement-1f6feb?style=for-the-badge" alt="JDBC">
+  <img src="https://img.shields.io/badge/DAO-Data_Access_Object-6f42c1?style=for-the-badge" alt="DAO">
   <img src="https://img.shields.io/badge/Hibernate-ORM-59666C?style=for-the-badge&logo=hibernate" alt="Hibernate">
   <img src="https://img.shields.io/badge/Maven-Project-C71A36?style=for-the-badge&logo=apachemaven" alt="Maven">
 </p>
 
+<p align="center">
+  <i>Pengembangan lanjutan dari Mini Project 3 dengan integrasi database dan ORM.</i>
+</p>
+
 ---
 
-## 📌 Tentang Project
+<table align="center">
+<tr>
+<td align="center"><b>📦 Project</b><br>Mini Project 4</td>
+<td align="center"><b>☕ Bahasa</b><br>Java</td>
+<td align="center"><b>🗄️ Database</b><br>MySQL</td>
+<td align="center"><b>🔌 Database Access</b><br>JDBC + DAO</td>
+<td align="center"><b>✨ Value Add</b><br>Hibernate ORM</td>
+</tr>
+</table>
+
+---
+
+# 📌 Tentang Project
 
 **Sistem Jasa Titip Luar Negeri** merupakan aplikasi berbasis Java yang dikembangkan untuk membantu pengelolaan pesanan jasa titip dari luar negeri, mulai dari menyimpan data pelanggan, barang, pembayaran, batch jastip, hingga mengelola status pesanan.
 
@@ -26,7 +44,7 @@ Selain memenuhi ketentuan utama menggunakan JDBC, project ini juga mengimplement
 
 ---
 
-## 🎯 Tujuan Pengembangan
+# 🎯 Tujuan Pengembangan
 
 Pengembangan Mini Project 4 dilakukan untuk:
 
@@ -42,42 +60,50 @@ Pengembangan Mini Project 4 dilakukan untuk:
 
 ---
 
-# 🧩 Struktur Package
+# 🧩 Struktur Project
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20165853.png" width="75%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20165853.png" width="75%" alt="Struktur Package">
+</p>
 
 Struktur package dipisahkan berdasarkan tanggung jawab masing-masing bagian agar kode lebih terorganisir, mudah dipahami, dan lebih mudah dikembangkan.
 
-- `Model` digunakan untuk merepresentasikan data dan menerapkan konsep OOP seperti **encapsulation, inheritance, abstraction, polymorphism, dan interface**.
-- `View` menangani interaksi dengan pengguna serta menampilkan informasi yang dihasilkan oleh sistem.
-- `Controller` mengatur alur proses aplikasi dan menjadi penghubung antara `View`, `Model`, dan `DAO`.
-- `DAO` menangani proses akses, penyimpanan, perubahan, dan penghapusan data pada database.
-- `Config` digunakan untuk mengatur konfigurasi koneksi **JDBC** dan **Hibernate**.
-- `Main` menjadi titik awal ketika aplikasi dijalankan.
+| Package | Fungsi |
+|---|---|
+| `Model` | Merepresentasikan data dan menerapkan konsep OOP |
+| `View` | Menangani interaksi dengan pengguna dan menampilkan informasi |
+| `Controller` | Mengatur alur proses aplikasi |
+| `DAO` | Menangani akses, penyimpanan, perubahan, dan penghapusan data |
+| `Config` | Mengatur konfigurasi JDBC dan Hibernate |
+| `Main` | Menjadi titik awal ketika aplikasi dijalankan |
 
-Pemisahan tersebut digunakan agar setiap bagian program memiliki tanggung jawab yang jelas. Dengan struktur ini, perubahan pada proses akses atau pengelolaan database dapat dilakukan pada bagian `DAO` tanpa harus mengubah seluruh tampilan atau struktur `Model`. Hal ini membuat kode menjadi lebih terstruktur dan lebih mudah dipelihara.
+Pemisahan tersebut digunakan agar setiap bagian program memiliki tanggung jawab yang jelas. Dengan struktur ini, perubahan pada proses akses atau pengelolaan database dapat dilakukan pada bagian `DAO` tanpa harus mengubah seluruh tampilan atau struktur `Model`.
 
-### Dependencies
+Hal tersebut membuat kode menjadi lebih terstruktur dan lebih mudah dipelihara.
+
+---
+
+## 📚 Dependencies
 
 Bagian `Dependencies` berisi library tambahan yang digunakan oleh project untuk mendukung koneksi database dan penerapan Hibernate ORM.
 
-- `hibernate-core-6.6.26.Final.jar` digunakan untuk menerapkan **Hibernate ORM** sebagai nilai tambah pada project.
-- `mysql-connector-j-9.4.0.jar` digunakan sebagai driver agar aplikasi Java dapat terhubung dengan **database MySQL** melalui JDBC.
-- `jakarta.persistence-api-3.1.0.jar` digunakan untuk mendukung kebutuhan **entity dan persistence** pada Hibernate.
-- `jakarta.transaction-api-2.1.1.jar` digunakan untuk mendukung kebutuhan transaksi yang digunakan oleh library persistence.
-- `protobuf-java-4.31.1.jar` merupakan library pendukung yang digunakan oleh dependency Hibernate.
+| Dependency | Kegunaan |
+|---|---|
+| `hibernate-core-6.6.26.Final.jar` | Menerapkan Hibernate ORM sebagai nilai tambah |
+| `mysql-connector-j-9.4.0.jar` | Driver agar Java dapat terhubung dengan MySQL melalui JDBC |
+| `jakarta.persistence-api-3.1.0.jar` | Mendukung entity dan persistence pada Hibernate |
+| `jakarta.transaction-api-2.1.1.jar` | Mendukung kebutuhan transaksi persistence |
+| `protobuf-java-4.31.1.jar` | Library pendukung yang digunakan oleh dependency Hibernate |
 
 Dependencies tersebut digunakan karena project membutuhkan library tambahan di luar Java standar, terutama untuk koneksi MySQL dan penerapan Hibernate ORM.
 
-### Project Files
+### 📄 Project Files
 
-Bagian `Project Files` berisi file konfigurasi utama project, yaitu `pom.xml`.
+File konfigurasi utama project adalah:
+
+```text
+pom.xml
+```
 
 File `pom.xml` digunakan untuk mengatur konfigurasi project Maven, termasuk dependency yang dibutuhkan oleh aplikasi. Dengan adanya file ini, library yang digunakan dalam project dapat dikelola secara terpusat sehingga konfigurasi project menjadi lebih terstruktur dan mudah dikelola.
 
@@ -88,6 +114,20 @@ File `pom.xml` digunakan untuk mengatur konfigurasi project Maven, termasuk depe
 # ⏩ Alur Program
 
 Program dijalankan melalui class `SistemJastip_Minpro4`. Setelah program berjalan, data pesanan dapat dimuat dari database melalui `PesananController` dan `PesananDAOImpl`.
+
+<table align="center">
+<tr>
+<td align="center">①<br><b>Program</b></td>
+<td>→</td>
+<td align="center">②<br><b>Controller</b></td>
+<td>→</td>
+<td align="center">③<br><b>DAO</b></td>
+<td>→</td>
+<td align="center">④<br><b>JDBC</b></td>
+<td>→</td>
+<td align="center">⑤<br><b>MySQL</b></td>
+</tr>
+</table>
 
 Secara umum, proses pengelolaan data berjalan melalui tahapan berikut:
 
@@ -110,7 +150,9 @@ Pembagian proses tersebut membuat alur antara tampilan, logika aplikasi, akses d
 
 **Encapsulation** digunakan untuk membatasi akses langsung terhadap data yang dimiliki oleh sebuah object.
 
-Pada project ini, encapsulation diterapkan pada class-class dalam package `Model` dengan menggunakan atribut `private`. Contohnya pada class `Pelanggan`:
+Pada project ini, encapsulation diterapkan pada class-class dalam package `Model` dengan menggunakan atribut `private`.
+
+Contohnya pada class `Pelanggan`:
 
 ```java
 private String idPelanggan;
@@ -118,13 +160,9 @@ private String namaPelanggan;
 private String nomorTelepon;
 ```
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170144.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170144.png" width="70%" alt="Encapsulation">
+</p>
 
 Atribut tersebut tidak diakses secara langsung dari luar class. Pengaksesan data dilakukan melalui getter dan setter.
 
@@ -140,13 +178,9 @@ public void setNamaPelanggan(String namaPelanggan) {
 }
 ```
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170200.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170200.png" width="70%" alt="Getter Setter">
+</p>
 
 Encapsulation digunakan agar data object lebih terkontrol. Sebagai contoh, perubahan nama pelanggan dilakukan melalui method `setNamaPelanggan()`, bukan dengan mengubah atribut secara langsung dari class lain.
 
@@ -166,13 +200,9 @@ public abstract class PesananJastip {
 }
 ```
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170326.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170326.png" width="70%" alt="Inheritance">
+</p>
 
 Class tersebut memiliki beberapa class turunan:
 
@@ -195,7 +225,7 @@ Dengan pendekatan ini, struktur program menjadi lebih rapi karena karakteristik 
 
 ---
 
-# 🗐 Penerapan Polymorphism
+# 🔄 Penerapan Polymorphism
 
 **Polymorphism** memungkinkan beberapa object dari class yang berbeda diperlakukan melalui tipe induk yang sama.
 
@@ -210,13 +240,9 @@ public String getJenisPesanan() {
 }
 ```
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170412.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170412.png" width="70%" alt="Polymorphism">
+</p>
 
 Class turunan lainnya memberikan implementasi `getJenisPesanan()` sesuai dengan jenis pesanan masing-masing.
 
@@ -258,21 +284,19 @@ public interface BisaDivalidasi {
 }
 ```
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170512.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170512.png" width="70%" alt="Interface">
+</p>
 
 Interface tersebut memberikan kemampuan validasi kepada jenis pesanan.
 
 Aturan validasi disesuaikan dengan karakteristik masing-masing jenis:
 
-- Fashion melakukan validasi ukuran dan warna.
-- Skincare melakukan validasi jenis kulit dan ukuran produk.
-- Elektronik melakukan validasi merek dan garansi.
+| Jenis Pesanan | Detail yang Divalidasi |
+|---|---|
+| Fashion | Ukuran dan warna |
+| Skincare | Jenis kulit dan ukuran produk |
+| Elektronik | Merek dan garansi |
 
 Interface digunakan karena setiap jenis pesanan memiliki kebutuhan validasi yang berbeda, tetapi tetap memiliki tujuan yang sama, yaitu memastikan detail pesanan valid sebelum digunakan.
 
@@ -351,13 +375,9 @@ private static final String USER = "root";
 private static final String PASSWORD = "";
 ```
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170648.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170648.png" width="70%" alt="Konfigurasi JDBC">
+</p>
 
 Koneksi dibuat menggunakan:
 
@@ -365,13 +385,9 @@ Koneksi dibuat menggunakan:
 DriverManager.getConnection(URL, USER, PASSWORD);
 ```
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170735.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170735.png" width="70%" alt="DriverManager JDBC">
+</p>
 
 JDBC digunakan sebagai mekanisme utama karena merupakan bagian wajib dari Mini Project 4 dan memberikan kontrol langsung terhadap proses query database.
 
@@ -412,15 +428,13 @@ try (
 }
 ```
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171314.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171314.png" width="70%" alt="PreparedStatement">
+</p>
 
-Penggunaan `?` membuat nilai parameter diberikan secara terpisah dari perintah SQL. Pada contoh tersebut, nilai `idPesanan` dimasukkan menggunakan:
+Penggunaan `?` membuat nilai parameter diberikan secara terpisah dari perintah SQL.
+
+Pada contoh tersebut, nilai `idPesanan` dimasukkan menggunakan:
 
 ```java
 statement.setString(1, idPesanan);
@@ -446,19 +460,28 @@ dengan operasi utama:
 
 ```java
 List<PesananJastip> getAllPesanan();
-boolean tambahPesanan(PesananJastip pesanan);
-boolean ubahPesanan(PesananJastip pesanan);
-boolean hapusPesanan(String idPesanan);
-boolean ubahStatusPesanan(String idPesanan, String statusBaru);
+
+boolean tambahPesanan(
+    PesananJastip pesanan
+);
+
+boolean ubahPesanan(
+    PesananJastip pesanan
+);
+
+boolean hapusPesanan(
+    String idPesanan
+);
+
+boolean ubahStatusPesanan(
+    String idPesanan,
+    String statusBaru
+);
 ```
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171411.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171411.png" width="70%" alt="DAO Interface">
+</p>
 
 Implementasinya terdapat pada:
 
@@ -478,7 +501,16 @@ Pemisahan ini membuat kode lebih mudah dipelihara. Jika query database perlu dip
 
 JDBC dan DAO digunakan untuk mendukung operasi CRUD pada data pesanan.
 
-### ➕ Create
+<table align="center">
+<tr>
+<td align="center">➕<br><b>Create</b></td>
+<td align="center">📖<br><b>Read</b></td>
+<td align="center">✏️<br><b>Update</b></td>
+<td align="center">🗑️<br><b>Delete</b></td>
+</tr>
+</table>
+
+## ➕ Create
 
 Create digunakan ketika pengguna menambahkan pesanan baru.
 
@@ -490,7 +522,7 @@ INSERT INTO pesanan ...
 
 Setelah proses berhasil, data baru dapat ditampilkan kembali melalui fitur Read.
 
-### 📖 Read
+## 📖 Read
 
 Read digunakan untuk mengambil data pesanan dari database.
 
@@ -498,7 +530,7 @@ Pada proses ini, `PesananDAOImpl` mengambil data menggunakan query `SELECT` dan 
 
 Hasil query kemudian dibentuk menjadi object seperti `JastipFashion`, `JastipSkincare`, atau `JastipElektronik`.
 
-### ✏️ Update
+## ✏️ Update
 
 Update digunakan untuk mengubah data yang sudah tersimpan.
 
@@ -510,7 +542,7 @@ SET ...
 WHERE id_pesanan = ?
 ```
 
-### 🗑️ Delete
+## 🗑️ Delete
 
 Delete digunakan untuk menghapus pesanan berdasarkan ID pesanan.
 
@@ -529,173 +561,117 @@ CRUD digunakan agar sistem tidak hanya dapat menampilkan data, tetapi juga dapat
 
 Bagian ini berisi screenshot hasil program setelah fitur-fitur utama dijalankan. Dokumentasi output digunakan sebagai bukti visual bahwa fitur yang dikembangkan dapat berjalan dengan baik dan perubahan data yang dilakukan melalui program dapat diterapkan pada database.
 
-## 1. Tampilan Menu Utama
+## 01 — Menu Utama
 
 Menampilkan menu utama sistem setelah program berhasil dijalankan. Menu ini menjadi halaman awal yang digunakan pengguna untuk memilih fitur yang tersedia di dalam sistem.
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/Screenshot%202026-09-19%20211755.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/Screenshot%202026-09-19%20211755.png" width="70%" alt="Menu Utama">
+</p>
 
 ---
 
-## 2. Menampilkan Data Pesanan
+## 02 — Menampilkan Data Pesanan
 
 Menampilkan data pesanan yang berasal dari database. Data dapat langsung ditampilkan karena sebelumnya telah tersedia dummy data pada file `sistem_jastip.sql`.
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-12%20235100.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-12%20235100.png" width="70%" alt="Data Pesanan">
+</p>
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20004622.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20004622.png" width="70%" alt="Detail Data Pesanan">
+</p>
 
 ---
 
-## 3. Menambahkan Pesanan
+## 03 — Menambahkan Pesanan
 
 Menampilkan proses ketika pengguna menambahkan data pesanan baru melalui program.
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20000605.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20000605.png" width="70%" alt="Proses Tambah Pesanan">
+</p>
 
 Setelah proses penambahan berhasil, data pesanan baru juga tersimpan di dalam database. Hal ini menunjukkan bahwa data yang dimasukkan melalui program berhasil diteruskan dan disimpan ke database.
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20000628.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20000628.png" width="70%" alt="Hasil Tambah Pesanan">
+</p>
 
 ---
 
-## 4. Mengubah Data Pesanan
+## 04 — Mengubah Data Pesanan
 
 Menampilkan proses dan hasil perubahan data pesanan yang sebelumnya telah tersimpan di dalam sistem.
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001127.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001127.png" width="70%" alt="Proses Ubah Pesanan">
+</p>
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001158.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001158.png" width="70%" alt="Hasil Ubah Pesanan">
+</p>
 
 ---
 
-## 5. Menghapus Data Pesanan
+## 05 — Menghapus Data Pesanan
 
 Menampilkan proses dan hasil penghapusan data pesanan berdasarkan ID pesanan.
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002128.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002128.png" width="70%" alt="Proses Hapus Pesanan">
+</p>
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002137.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002137.png" width="70%" alt="Konfirmasi Hapus Pesanan">
+</p>
 
 Setelah proses penghapusan berhasil, data pesanan yang dipilih juga terhapus dari database. Dengan demikian, perubahan yang dilakukan melalui program berhasil diterapkan pada data yang tersimpan di database.
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002152.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002152.png" width="70%" alt="Hasil Hapus Pesanan">
+</p>
 
 ---
 
-## 6. Mengubah Status Pesanan
+## 06 — Mengubah Status Pesanan
 
 Menampilkan proses dan hasil perubahan status pesanan melalui sistem.
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001513.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001513.png" width="70%" alt="Proses Ubah Status">
+</p>
 
 Setelah status pesanan berhasil diubah melalui program, status yang tersimpan di dalam database juga diperbarui sesuai dengan perubahan tersebut. Hal ini menunjukkan bahwa perubahan status tidak hanya ditampilkan pada program, tetapi juga tersimpan pada database.
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001530.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001530.png" width="70%" alt="Hasil Ubah Status">
+</p>
 
 ---
 
-## 7. Penerapan Hibernate ORM
+## 07 — Penerapan Hibernate ORM
 
 Menampilkan hasil penerapan Hibernate ORM melalui `PelangganHibernateDAO`. Data pelanggan diambil menggunakan mekanisme ORM sehingga proses interaksi dengan database dapat dilakukan melalui objek entity dan Hibernate.
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001753.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001753.png" width="70%" alt="Hibernate ORM">
+</p>
 
 ---
 
-## 9. Keluar dari Program
+## 08 — Keluar dari Program
 
 Menampilkan proses ketika pengguna memilih menu `9` untuk keluar dari sistem. Setelah memilih menu tersebut, program menghentikan proses dan menampilkan pesan bahwa aplikasi telah selesai digunakan.
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20005130.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20005130.png" width="70%" alt="Keluar Program">
+</p>
 
 ---
 
-# ✨ Penerapan Nilai Tambah - Hibernate ORM
+# ✨ Penerapan Nilai Tambah — Hibernate ORM
 
 Sebagai nilai tambah, project ini mengimplementasikan **Hibernate ORM**.
 
@@ -828,13 +804,9 @@ public class Pelanggan {
 }
 ```
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171729.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171729.png" width="70%" alt="Entity Mapping">
+</p>
 
 Mapping tersebut digunakan agar Hibernate mengetahui bahwa object `Pelanggan` berhubungan dengan tabel `pelanggan`, termasuk hubungan antara atribut Java dan kolom database.
 
@@ -863,13 +835,9 @@ try (Session session =
 }
 ```
 
-<table border="1" bordercolor="black">
-  <tr>
-    <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171820.png" width="70%">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171820.png" width="70%" alt="Hibernate DAO">
+</p>
 
 Pada bagian ini, Hibernate digunakan untuk mengambil data berdasarkan entity `Pelanggan`.
 
@@ -976,6 +944,6 @@ Dengan demikian, project ini tidak hanya menerapkan integrasi Java dengan MySQL,
 ---
 
 <p align="center">
-  <b>📦🛍️ Mini Project 4 - Sistem Jasa Titip Luar Negeri</b><br>
+  <b>📦🛍️ Mini Project 4 — Sistem Jasa Titip Luar Negeri</b><br>
   <i>Java • JDBC • DAO • MySQL • Hibernate ORM</i>
 </p>
