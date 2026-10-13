@@ -561,7 +561,7 @@ CRUD digunakan agar sistem tidak hanya dapat menampilkan data, tetapi juga dapat
 
 Bagian ini berisi screenshot hasil program setelah fitur-fitur utama dijalankan. Dokumentasi output digunakan sebagai bukti visual bahwa fitur yang dikembangkan dapat berjalan dengan baik dan perubahan data yang dilakukan melalui program dapat diterapkan pada database.
 
-## 01 — Menu Utama
+## 01 Menu Utama
 
 Menampilkan menu utama sistem setelah program berhasil dijalankan. Menu ini menjadi halaman awal yang digunakan pengguna untuk memilih fitur yang tersedia di dalam sistem.
 
@@ -571,7 +571,7 @@ Menampilkan menu utama sistem setelah program berhasil dijalankan. Menu ini menj
 
 ---
 
-## 02 — Menampilkan Data Pesanan
+## 02 Menampilkan Data Pesanan
 
 Menampilkan data pesanan yang berasal dari database. Data dapat langsung ditampilkan karena sebelumnya telah tersedia dummy data pada file `sistem_jastip.sql`.
 
@@ -585,7 +585,7 @@ Menampilkan data pesanan yang berasal dari database. Data dapat langsung ditampi
 
 ---
 
-## 03 — Menambahkan Pesanan
+## 03 Menambahkan Pesanan
 
 Menampilkan proses ketika pengguna menambahkan data pesanan baru melalui program.
 
@@ -596,12 +596,12 @@ Menampilkan proses ketika pengguna menambahkan data pesanan baru melalui program
 Setelah proses penambahan berhasil, data pesanan baru juga tersimpan di dalam database. Hal ini menunjukkan bahwa data yang dimasukkan melalui program berhasil diteruskan dan disimpan ke database.
 
 <p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20000628.png" width="70%" alt="Hasil Tambah Pesanan">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20000628.png" width="65%" alt="Hasil Tambah Pesanan">
 </p>
 
 ---
 
-## 04 — Mengubah Data Pesanan
+## 04 Mengubah Data Pesanan
 
 Menampilkan proses dan hasil perubahan data pesanan yang sebelumnya telah tersimpan di dalam sistem.
 
@@ -615,7 +615,7 @@ Menampilkan proses dan hasil perubahan data pesanan yang sebelumnya telah tersim
 
 ---
 
-## 05 — Menghapus Data Pesanan
+## 05 Menghapus Data Pesanan
 
 Menampilkan proses dan hasil penghapusan data pesanan berdasarkan ID pesanan.
 
@@ -635,7 +635,7 @@ Setelah proses penghapusan berhasil, data pesanan yang dipilih juga terhapus dar
 
 ---
 
-## 06 — Mengubah Status Pesanan
+## 06 Mengubah Status Pesanan
 
 Menampilkan proses dan hasil perubahan status pesanan melalui sistem.
 
@@ -651,7 +651,7 @@ Setelah status pesanan berhasil diubah melalui program, status yang tersimpan di
 
 ---
 
-## 07 — Penerapan Hibernate ORM
+## 07 Penerapan Hibernate ORM
 
 Menampilkan hasil penerapan Hibernate ORM melalui `PelangganHibernateDAO`. Data pelanggan diambil menggunakan mekanisme ORM sehingga proses interaksi dengan database dapat dilakukan melalui objek entity dan Hibernate.
 
@@ -661,7 +661,7 @@ Menampilkan hasil penerapan Hibernate ORM melalui `PelangganHibernateDAO`. Data 
 
 ---
 
-## 08 — Keluar dari Program
+## 08 Keluar dari Program
 
 Menampilkan proses ketika pengguna memilih menu `9` untuk keluar dari sistem. Setelah memilih menu tersebut, program menghentikan proses dan menampilkan pesan bahwa aplikasi telah selesai digunakan.
 
