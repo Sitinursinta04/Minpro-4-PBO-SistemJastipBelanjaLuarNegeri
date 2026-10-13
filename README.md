@@ -1,5 +1,5 @@
 # 📦🛍️ Sistem Jasa Titip Belanja Luar Negeri
-### Mini Project 4 — Java • JDBC • DAO • MySQL • Hibernate ORM
+   ### Mini Project 4 — Java • JDBC • DAO • MySQL • Hibernate ORM
 
 <p align="center">
   <b>Pengembangan Sistem Jasa Titip Berbasis Java, JDBC, DAO, dan Hibernate ORM</b>
