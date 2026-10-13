@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Java-26-orange?style=for-the-badge&logo=openjdk" alt="Java">
   <img src="https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql" alt="MySQL">
-  <img src="https://img.shields.io/badge/JDBC-PreparedStatement-1f6feb?style=for-the-badge&logo=java" alt="JDBC">
+  <img src="https://img.shields.io/badge/JDBC-PreparedStatement-1f6feb?style=for-the-badge" alt="JDBC">
   <img src="https://img.shields.io/badge/Hibernate-ORM-59666C?style=for-the-badge&logo=hibernate" alt="Hibernate">
   <img src="https://img.shields.io/badge/Maven-Project-C71A36?style=for-the-badge&logo=apachemaven" alt="Maven">
 </p>
@@ -47,7 +47,7 @@ Pengembangan Mini Project 4 dilakukan untuk:
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20165853.png" width="50%" alt="Struktur Package">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20165853.png" width="75%">
     </td>
   </tr>
 </table>
@@ -121,7 +121,7 @@ private String nomorTelepon;
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170144.png" width="55%" alt="Encapsulation pada Model">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170144.png" width="70%">
     </td>
   </tr>
 </table>
@@ -143,7 +143,7 @@ public void setNamaPelanggan(String namaPelanggan) {
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170200.png" width="55%" alt="Getter dan Setter">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170200.png" width="70%">
     </td>
   </tr>
 </table>
@@ -169,7 +169,7 @@ public abstract class PesananJastip {
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170326.png" width="55%" alt="Inheritance Pesanan Jastip">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170326.png" width="70%">
     </td>
   </tr>
 </table>
@@ -213,7 +213,7 @@ public String getJenisPesanan() {
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170412.png" width="55%" alt="Polymorphism">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170412.png" width="70%">
     </td>
   </tr>
 </table>
@@ -261,7 +261,7 @@ public interface BisaDivalidasi {
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170512.png" width="55%" alt="Interface BisaDivalidasi">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170512.png" width="70%">
     </td>
   </tr>
 </table>
@@ -354,7 +354,7 @@ private static final String PASSWORD = "";
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170648.png" width="55%" alt="Konfigurasi JDBC">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170648.png" width="70%">
     </td>
   </tr>
 </table>
@@ -368,7 +368,7 @@ DriverManager.getConnection(URL, USER, PASSWORD);
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170735.png" width="55%" alt="DriverManager JDBC">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20170735.png" width="70%">
     </td>
   </tr>
 </table>
@@ -415,7 +415,7 @@ try (
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171314.png" width="55%" alt="PreparedStatement">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171314.png" width="70%">
     </td>
   </tr>
 </table>
@@ -455,7 +455,7 @@ boolean ubahStatusPesanan(String idPesanan, String statusBaru);
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171411.png" width="55%" alt="DAO">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171411.png" width="70%">
     </td>
   </tr>
 </table>
@@ -536,7 +536,7 @@ Menampilkan menu utama sistem setelah program berhasil dijalankan. Menu ini menj
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/Screenshot%202026-09-19%20211755.png" width="60%" alt="Menu Utama">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/Screenshot%202026-09-19%20211755.png" width="70%">
     </td>
   </tr>
 </table>
@@ -550,7 +550,7 @@ Menampilkan data pesanan yang berasal dari database. Data dapat langsung ditampi
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-12%20235100.png" width="60%" alt="Data Pesanan">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-12%20235100.png" width="70%">
     </td>
   </tr>
 </table>
@@ -558,7 +558,7 @@ Menampilkan data pesanan yang berasal dari database. Data dapat langsung ditampi
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20004622.png" width="60%" alt="Detail Data Pesanan">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20004622.png" width="70%">
     </td>
   </tr>
 </table>
@@ -572,7 +572,7 @@ Menampilkan proses ketika pengguna menambahkan data pesanan baru melalui program
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20000605.png" width="60%" alt="Proses Menambahkan Pesanan">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20000605.png" width="70%">
     </td>
   </tr>
 </table>
@@ -582,7 +582,7 @@ Setelah proses penambahan berhasil, data pesanan baru juga tersimpan di dalam da
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20000628.png" width="60%" alt="Hasil Penambahan Pesanan">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20000628.png" width="70%">
     </td>
   </tr>
 </table>
@@ -596,7 +596,7 @@ Menampilkan proses dan hasil perubahan data pesanan yang sebelumnya telah tersim
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001127.png" width="60%" alt="Proses Mengubah Pesanan">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001127.png" width="70%">
     </td>
   </tr>
 </table>
@@ -604,7 +604,7 @@ Menampilkan proses dan hasil perubahan data pesanan yang sebelumnya telah tersim
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001158.png" width="60%" alt="Hasil Mengubah Pesanan">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001158.png" width="70%">
     </td>
   </tr>
 </table>
@@ -618,7 +618,7 @@ Menampilkan proses dan hasil penghapusan data pesanan berdasarkan ID pesanan.
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002128.png" width="60%" alt="Proses Menghapus Pesanan">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002128.png" width="70%">
     </td>
   </tr>
 </table>
@@ -626,7 +626,7 @@ Menampilkan proses dan hasil penghapusan data pesanan berdasarkan ID pesanan.
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002137.png" width="60%" alt="Konfirmasi Penghapusan">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002137.png" width="70%">
     </td>
   </tr>
 </table>
@@ -636,7 +636,7 @@ Setelah proses penghapusan berhasil, data pesanan yang dipilih juga terhapus dar
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002152.png" width="60%" alt="Hasil Penghapusan Pesanan">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20002152.png" width="70%">
     </td>
   </tr>
 </table>
@@ -650,7 +650,7 @@ Menampilkan proses dan hasil perubahan status pesanan melalui sistem.
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001513.png" width="60%" alt="Proses Mengubah Status">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001513.png" width="70%">
     </td>
   </tr>
 </table>
@@ -660,7 +660,7 @@ Setelah status pesanan berhasil diubah melalui program, status yang tersimpan di
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001530.png" width="60%" alt="Hasil Mengubah Status">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001530.png" width="70%">
     </td>
   </tr>
 </table>
@@ -674,7 +674,7 @@ Menampilkan hasil penerapan Hibernate ORM melalui `PelangganHibernateDAO`. Data 
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001753.png" width="55%" alt="Hibernate ORM">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20001753.png" width="70%">
     </td>
   </tr>
 </table>
@@ -688,7 +688,7 @@ Menampilkan proses ketika pengguna memilih menu `9` untuk keluar dari sistem. Se
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20005130.png" width="60%" alt="Keluar dari Program">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Dokumentasi/kedua/Screenshot%202026-10-13%20005130.png" width="70%">
     </td>
   </tr>
 </table>
@@ -831,7 +831,7 @@ public class Pelanggan {
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171729.png" width="55%" alt="Entity Mapping">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171729.png" width="70%">
     </td>
   </tr>
 </table>
@@ -866,7 +866,7 @@ try (Session session =
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171820.png" width="55%" alt="Hibernate DAO">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20171820.png" width="70%">
     </td>
   </tr>
 </table>
