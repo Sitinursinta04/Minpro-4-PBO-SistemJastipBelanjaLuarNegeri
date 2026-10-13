@@ -47,7 +47,7 @@ Pengembangan Mini Project 4 dilakukan untuk:
 <table border="1" bordercolor="black">
   <tr>
     <td>
-      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20165853.png" width="100%">
+      <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20165853.png" width="80%">
     </td>
   </tr>
 </table>
