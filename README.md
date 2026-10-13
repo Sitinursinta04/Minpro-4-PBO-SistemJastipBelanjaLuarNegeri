@@ -63,7 +63,7 @@ Pengembangan Mini Project 4 dilakukan untuk:
 # 🧩 Struktur Project
 
 <p align="center">
-  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20165853.png" width="75%" alt="Struktur Package">
+  <img src="https://github.com/Sitinursinta04/PRAKTIKUM_PBO/blob/main/Matkul/third/Screenshot%202026-10-13%20165853.png" width="70%" alt="Struktur Package">
 </p>
 
 Struktur package dipisahkan berdasarkan tanggung jawab masing-masing bagian agar kode lebih terorganisir, mudah dipahami, dan lebih mudah dikembangkan.
