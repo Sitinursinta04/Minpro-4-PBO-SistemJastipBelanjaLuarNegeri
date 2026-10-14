@@ -31,6 +31,16 @@
 
 ---
 
+<table align="center">
+<tr>
+<td align="center"><b>Nama</b><br>Siti Nursinta</td>
+<td align="center"><b>NIM</b><br>2509116087</td>
+<td align="center"><b>Kelas</b><br>C25</td>
+<td align="center"><b>Mata Kuliah</b><br>Pemrograman Berorientasi Objek</td>
+</tr>
+</table>
+
+---
 ## 📌 Tentang Project
 
 **Sistem Jasa Titip Luar Negeri** merupakan aplikasi berbasis Java yang dikembangkan untuk membantu pengelolaan pesanan jasa titip dari luar negeri, mulai dari menyimpan data pelanggan, barang, pembayaran, batch jastip, hingga mengelola status pesanan.
