@@ -1,5 +1,15 @@
 ## 📦🛍️ Sistem Jasa Titip Belanja Luar Negeri - Mini Project 4 
 
+<table align="center">
+<tr>
+<td align="center"><b>Nama</b><br>Siti Nursinta</td>
+<td align="center"><b>NIM</b><br>2509116087</td>
+<td align="center"><b>Kelas</b><br>C25</td>
+<td align="center"><b>Praktikum</b><br>Pemrograman Berorientasi Objek</td>
+</tr>
+</table>
+---
+
 <p align="center">
   <b>Pengembangan Sistem Jasa Titip Berbasis Java, JDBC, DAO, dan Hibernate ORM</b>
 </p>
@@ -26,17 +36,6 @@
 <td align="center"><b>🗄️ Database</b><br>MySQL</td>
 <td align="center"><b>🔌 Database Access</b><br>JDBC + DAO</td>
 <td align="center"><b>✨ Value Add</b><br>Hibernate ORM</td>
-</tr>
-</table>
-
----
-
-<table align="center">
-<tr>
-<td align="center"><b>Nama</b><br>Siti Nursinta</td>
-<td align="center"><b>NIM</b><br>2509116087</td>
-<td align="center"><b>Kelas</b><br>C25</td>
-<td align="center"><b>Mata Kuliah</b><br>Pemrograman Berorientasi Objek</td>
 </tr>
 </table>
 
