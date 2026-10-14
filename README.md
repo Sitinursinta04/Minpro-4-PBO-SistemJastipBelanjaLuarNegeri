@@ -8,7 +8,6 @@
 <td align="center"><b>Praktikum</b><br>Pemrograman Berorientasi Objek</td>
 </tr>
 </table>
----
 
 <p align="center">
   <b>Pengembangan Sistem Jasa Titip Berbasis Java, JDBC, DAO, dan Hibernate ORM</b>
@@ -26,8 +25,6 @@
 <p align="center">
   <i>Pengembangan lanjutan dari Mini Project 3 dengan integrasi database dan ORM.</i>
 </p>
-
----
 
 <table align="center">
 <tr>
