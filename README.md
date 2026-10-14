@@ -1053,6 +1053,6 @@ Dengan demikian, project ini tidak hanya menerapkan integrasi Java dengan MySQL,
 ---
 
 <p align="center">
-  <b>📦🛍️ Mini Project 4 — Sistem Jasa Titip Luar Negeri</b><br>
+  <b>📦🛍️ Mini Project 4 - Sistem Jasa Titip Luar Negeri</b><br>
   <i>Java • JDBC • DAO • MySQL • Hibernate ORM</i>
 </p>
