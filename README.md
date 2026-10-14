@@ -1,6 +1,4 @@
-<p align="center"> 
-
-  ## 📦🛍️ Sistem Jasa Titip Belanja Luar Negeri - Mini Project 4 
+<h2 align="center">📦🛍️ Sistem Jasa Titip Belanja Luar Negeri - Mini Project 4</h2>
 
 <table align="center">
 <tr>
