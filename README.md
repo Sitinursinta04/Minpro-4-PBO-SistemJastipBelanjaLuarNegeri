@@ -1,4 +1,4 @@
-# 📦🛍️ Sistem Jasa Titip Belanja Luar Negeri - Mini Project 4 
+## 📦🛍️ Sistem Jasa Titip Belanja Luar Negeri - Mini Project 4 
 
 <p align="center">
   <b>Pengembangan Sistem Jasa Titip Berbasis Java, JDBC, DAO, dan Hibernate ORM</b>
@@ -31,7 +31,7 @@
 
 ---
 
-# 📌 Tentang Project
+## 📌 Tentang Project
 
 **Sistem Jasa Titip Luar Negeri** merupakan aplikasi berbasis Java yang dikembangkan untuk membantu pengelolaan pesanan jasa titip dari luar negeri, mulai dari menyimpan data pelanggan, barang, pembayaran, batch jastip, hingga mengelola status pesanan.
 
@@ -43,7 +43,7 @@ Selain memenuhi ketentuan utama menggunakan JDBC, project ini juga mengimplement
 
 ---
 
-# 🎯 Tujuan Pengembangan
+## 🎯 Tujuan Pengembangan
 
 Pengembangan Mini Project 4 dilakukan untuk:
 
@@ -59,7 +59,7 @@ Pengembangan Mini Project 4 dilakukan untuk:
 
 ---
 
-# 🧩 Struktur Project
+## 🧩 Struktur Project
 
 <table border="1" bordercolor="black">
   <tr>
@@ -114,7 +114,7 @@ File `pom.xml` digunakan untuk mengatur konfigurasi project Maven, termasuk depe
 
 ---
 
-# ⏩ Alur Program
+## ⏩ Alur Program
 
 Program dijalankan melalui class `SistemJastip_Minpro4`. Setelah program berjalan, data pesanan dapat dimuat dari database melalui `PesananController` dan `PesananDAOImpl`.
 
@@ -149,7 +149,7 @@ Pembagian proses tersebut membuat alur antara tampilan, logika aplikasi, akses d
 
 ---
 
-# 🔐 Penerapan Encapsulation
+## 🔐 Penerapan Encapsulation
 
 **Encapsulation** digunakan untuk membatasi akses langsung terhadap data yang dimiliki oleh sebuah object.
 
@@ -199,7 +199,7 @@ Penerapan ini juga membuat tanggung jawab setiap class lebih jelas, karena data 
 
 ---
 
-# 🧬 Penerapan Inheritance
+## 🧬 Penerapan Inheritance
 
 **Inheritance** digunakan agar sebuah class dapat mewarisi karakteristik dan perilaku dari class lain.
 
@@ -240,7 +240,7 @@ Dengan pendekatan ini, struktur program menjadi lebih rapi karena karakteristik 
 
 ---
 
-# 🔄 Penerapan Polymorphism
+## 🔄 Penerapan Polymorphism
 
 **Polymorphism** memungkinkan beberapa object dari class yang berbeda diperlakukan melalui tipe induk yang sama.
 
@@ -271,7 +271,7 @@ Penerapan polymorphism membuat pengelolaan berbagai jenis pesanan menjadi lebih 
 
 ---
 
-# 🌌 Penerapan Abstraction
+## 🌌 Penerapan Abstraction
 
 **Abstraction** digunakan untuk menyediakan struktur umum yang dapat digunakan oleh class lain tanpa harus menampilkan seluruh detail implementasinya.
 
@@ -293,7 +293,7 @@ Dengan cara ini, class induk tidak perlu mengetahui detail bagaimana setiap jeni
 
 ---
 
-# 🔗 Penerapan Interface
+## 🔗 Penerapan Interface
 
 Selain abstract class, sistem menggunakan interface:
 
@@ -325,7 +325,7 @@ Interface digunakan karena setiap jenis pesanan memiliki kebutuhan validasi yang
 
 ---
 
-# 🗄️ Database MySQL
+## 🗄️ Database MySQL
 
 Database yang digunakan dalam project ini bernama:
 
@@ -353,7 +353,7 @@ Pendekatan tersebut membuat database lebih terstruktur dan menghindari penyimpan
 
 ---
 
-# 📄 Dummy Data
+## 📄 Dummy Data
 
 Sesuai ketentuan Mini Project 4, database harus memiliki data awal sehingga fitur **Read** dapat langsung menampilkan data ketika program dijalankan.
 
@@ -377,7 +377,7 @@ Data awal dimasukkan melalui file SQL, bukan melalui kode Java. Hal ini membuat 
 
 ---
 
-# 🔌 Penerapan JDBC
+## 🔌 Penerapan JDBC
 
 **JDBC (Java Database Connectivity)** digunakan sebagai mekanisme utama yang menghubungkan aplikasi Java dengan database MySQL.
 
@@ -426,7 +426,7 @@ Melalui JDBC, aplikasi tidak hanya mengelola object di dalam memory, tetapi dapa
 
 ---
 
-# 🛡️ PreparedStatement
+## 🛡️ PreparedStatement
 
 Dalam proses JDBC, project menggunakan **PreparedStatement** untuk menjalankan query database. Penerapan ini terdapat pada class:
 
@@ -481,7 +481,7 @@ Selain operasi Delete, `PreparedStatement` juga digunakan pada operasi Create, U
 
 ---
 
-# 🗂️ Penerapan DAO
+## 🗂️ Penerapan DAO
 
 **DAO (Data Access Object)** digunakan untuk memisahkan proses akses database dari Controller dan View.
 
@@ -536,7 +536,7 @@ Pemisahan ini membuat kode lebih mudah dipelihara. Jika query database perlu dip
 
 ---
 
-# 📥 Penerapan CRUD
+## 📥 Penerapan CRUD
 
 JDBC dan DAO digunakan untuk mendukung operasi CRUD pada data pesanan.
 
@@ -549,7 +549,7 @@ JDBC dan DAO digunakan untuk mendukung operasi CRUD pada data pesanan.
 </tr>
 </table>
 
-## ➕ Create
+### ➕ Create
 
 Create digunakan ketika pengguna menambahkan pesanan baru.
 
@@ -561,7 +561,7 @@ INSERT INTO pesanan ...
 
 Setelah proses berhasil, data baru dapat ditampilkan kembali melalui fitur Read.
 
-## 📖 Read
+### 📖 Read
 
 Read digunakan untuk mengambil data pesanan dari database.
 
@@ -569,7 +569,7 @@ Pada proses ini, `PesananDAOImpl` mengambil data menggunakan query `SELECT` dan 
 
 Hasil query kemudian dibentuk menjadi object seperti `JastipFashion`, `JastipSkincare`, atau `JastipElektronik`.
 
-## ✏️ Update
+### ✏️ Update
 
 Update digunakan untuk mengubah data yang sudah tersimpan.
 
@@ -581,7 +581,7 @@ SET ...
 WHERE id_pesanan = ?
 ```
 
-## 🗑️ Delete
+### 🗑️ Delete
 
 Delete digunakan untuk menghapus pesanan berdasarkan ID pesanan.
 
@@ -596,11 +596,11 @@ CRUD digunakan agar sistem tidak hanya dapat menampilkan data, tetapi juga dapat
 
 ---
 
-# 🖥️ Dokumentasi Output Program
+## 🖥️ Dokumentasi Output Program
 
 Bagian ini berisi screenshot hasil program setelah fitur-fitur utama dijalankan. Dokumentasi output digunakan sebagai bukti visual bahwa fitur yang dikembangkan dapat berjalan dengan baik dan perubahan data yang dilakukan melalui program dapat diterapkan pada database.
 
-## 01 Menu Utama
+### 01 Menu Utama
 
 Menampilkan menu utama sistem setelah program berhasil dijalankan. Menu ini menjadi halaman awal yang digunakan pengguna untuk memilih fitur yang tersedia di dalam sistem.
 
@@ -614,7 +614,7 @@ Menampilkan menu utama sistem setelah program berhasil dijalankan. Menu ini menj
 
 ---
 
-## 02 Menampilkan Data Pesanan
+### 02 Menampilkan Data Pesanan
 
 Menampilkan data pesanan yang berasal dari database. Data dapat langsung ditampilkan karena sebelumnya telah tersedia dummy data pada file `sistem_jastip.sql`.
 
@@ -636,7 +636,7 @@ Menampilkan data pesanan yang berasal dari database. Data dapat langsung ditampi
 
 ---
 
-## 03 Menambahkan Pesanan
+### 03 Menambahkan Pesanan
 
 Menampilkan proses ketika pengguna menambahkan data pesanan baru melalui program.
 
@@ -660,7 +660,7 @@ Setelah proses penambahan berhasil, data pesanan baru juga tersimpan di dalam da
 
 ---
 
-## 04 Mengubah Data Pesanan
+### 04 Mengubah Data Pesanan
 
 Menampilkan proses dan hasil perubahan data pesanan yang sebelumnya telah tersimpan di dalam sistem.
 
@@ -682,7 +682,7 @@ Menampilkan proses dan hasil perubahan data pesanan yang sebelumnya telah tersim
 
 ---
 
-## 05 Menghapus Data Pesanan
+### 05 Menghapus Data Pesanan
 
 Menampilkan proses dan hasil penghapusan data pesanan berdasarkan ID pesanan.
 
@@ -714,7 +714,7 @@ Setelah proses penghapusan berhasil, data pesanan yang dipilih juga terhapus dar
 
 ---
 
-## 06 Mengubah Status Pesanan
+### 06 Mengubah Status Pesanan
 
 Menampilkan proses dan hasil perubahan status pesanan melalui sistem.
 
@@ -738,7 +738,7 @@ Setelah status pesanan berhasil diubah melalui program, status yang tersimpan di
 
 ---
 
-## 07 Penerapan Hibernate ORM
+### 07 Penerapan Hibernate ORM
 
 Menampilkan hasil penerapan Hibernate ORM melalui `PelangganHibernateDAO`. Data pelanggan diambil menggunakan mekanisme ORM sehingga proses interaksi dengan database dapat dilakukan melalui objek entity dan Hibernate.
 
@@ -752,7 +752,7 @@ Menampilkan hasil penerapan Hibernate ORM melalui `PelangganHibernateDAO`. Data 
 
 ---
 
-## 08 Keluar dari Program
+### 08 Keluar dari Program
 
 Menampilkan proses ketika pengguna memilih menu `9` untuk keluar dari sistem. Setelah memilih menu tersebut, program menghentikan proses dan menampilkan pesan bahwa aplikasi telah selesai digunakan.
 
@@ -766,7 +766,7 @@ Menampilkan proses ketika pengguna memilih menu `9` untuk keluar dari sistem. Se
 
 ---
 
-# ✨ Penerapan Nilai Tambah — Hibernate ORM
+## ✨ Penerapan Nilai Tambah - Hibernate ORM
 
 Sebagai nilai tambah, project ini mengimplementasikan **Hibernate ORM**.
 
@@ -799,7 +799,7 @@ Dengan menggunakan kedua pendekatan tersebut, project dapat memperlihatkan perbe
 
 ---
 
-# ⚙️ Konfigurasi Hibernate
+## ⚙️ Konfigurasi Hibernate
 
 Konfigurasi Hibernate terdapat pada:
 
@@ -846,7 +846,7 @@ Pengaturan tersebut digunakan karena struktur tabel database sudah dibuat melalu
 
 ---
 
-# 🏷️ Entity Mapping
+## 🏷️ Entity Mapping
 
 Beberapa class pada package `Model` digunakan sebagai entity Hibernate:
 
@@ -911,7 +911,7 @@ Mapping tersebut digunakan agar Hibernate mengetahui bahwa object `Pelanggan` be
 
 ---
 
-# 🗃️ Hibernate DAO
+## 🗃️ Hibernate DAO
 
 Implementasi Hibernate DAO terdapat pada:
 
@@ -960,7 +960,7 @@ Inilah salah satu bagian yang menunjukkan penerapan ORM dalam project, karena pr
 
 ---
 
-# 🗺️ Lokasi Penerapan Konsep
+## 🗺️ Lokasi Penerapan Konsep
 
 | Konsep | Lokasi |
 |---|---|
@@ -981,7 +981,7 @@ Inilah salah satu bagian yang menunjukkan penerapan ORM dalam project, karena pr
 
 ---
 
-# 🗂️ File Database
+## 🗂️ File Database
 
 File database disediakan dalam repository pada:
 
@@ -1002,7 +1002,7 @@ File SQL disertakan agar database dapat dibuat kembali dengan struktur dan data 
 
 ---
 
-# 🔗 Dependency Project
+## 🔗 Dependency Project
 
 Project menggunakan Maven untuk mengelola dependency.
 
@@ -1032,7 +1032,7 @@ Dependency tersebut digunakan untuk menerapkan Hibernate sebagai nilai tambah OR
 
 ---
 
-# 📑 Kesimpulan
+## 📑 Kesimpulan
 
 Mini Project 4 mengembangkan **Sistem Jasa Titip Luar Negeri** menjadi aplikasi Java yang telah terintegrasi dengan database MySQL.
 
